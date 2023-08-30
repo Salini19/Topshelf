@@ -21,8 +21,8 @@ namespace WindowserviceWithTopshelf
                 });
                 //Setup Account that window service use to run.  
                 configure.RunAsLocalSystem();
-                configure.SetServiceName("MyWindowServiceWithTopshelf");
-                configure.SetDisplayName("MyWindowServiceWithTopshelf");
+                configure.SetServiceName("DotNetFramework");
+                configure.SetDisplayName("DotNetFramework");
                 configure.SetDescription("My .Net windows service with Topshelf");
             });
         }
